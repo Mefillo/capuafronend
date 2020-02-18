@@ -1,0 +1,114 @@
+
+.navbar {
+    position: sticky;
+    position: -webkit-sticky;
+    font-family: 'Raleway', sans-serif;
+    background-color: #f2f2f2; 
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    align-items: center;
+    border-style: solid;
+    border-width:  0px 0px 1px 0px;
+    border-color: #c3c1d1;
+    @media (max-width: 700px){
+      display: block;
+    }
+    .up{
+      display: flex;
+      justify-content: space-between;
+      .logo{
+        display: flex;
+        flex-direction: row;
+        @media (max-width: 700px){
+          margin-right: 20px;
+          justify-content: center;
+        }
+      }
+      .box{
+        display: none;
+        @media (max-width: 700px){
+          display: inline;
+        }
+        img{
+          margin-right: 10px;
+          margin-top: 5px;
+          width: 50px;
+          border: solid 1px rgb(207, 207, 207);
+          border-radius: 10px;
+          opacity: 0.7;
+        }
+      }
+    }
+    img {
+      margin: -20px;
+      margin-left: 0px;
+      margin-top: -15px;
+      margin-bottom: -15px;
+      width: 5em;
+      color: #847172;
+      padding: 10px;
+  
+    }
+    }
+  
+      p{
+        font-size: 1.4rem;
+        padding-top: 10px;
+        font-family: 'Pacifico', cursive;
+        color: #48260d;
+      }
+    .menu-s{
+      display: none;
+      @media (min-width: 700px){
+        display: inline;
+      }
+    }
+    .menu {
+      display: none;
+      @media (max-width: 700px){
+        display: block;
+      }
+    }
+  
+    ul{
+      display: flex;
+      align-items: center;
+      @media (max-width: 700px){
+        display: block;
+        text-align: center;
+        background-color: #c3c1d12a;
+      }
+    }
+      li{
+        list-style: none;
+        @media (max-width: 700px){
+          padding: 10px 0px;
+        }
+        &:last-child{
+          padding: 0px 30px;
+          @media (max-width: 700px){
+            margin-right: 0px;
+            padding: 10px 0px;
+          }
+        }
+      }
+        a{
+          text-decoration: none;
+          color: #30393c;
+          padding: 1.2rem;
+          font-size: 18px;
+          @media (max-width: 600px){
+            padding: 0;
+          }
+  
+        }
+        a:hover{
+          background-color: #abaab4;
+          color: #14181a;
+        }
+#redirect{
+  &:hover{
+    background-color: transparent;
+  }
+}

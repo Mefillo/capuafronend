@@ -1,0 +1,147 @@
+.body-a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+b{
+    font-weight: 900;
+}
+h5{
+    font-weight: lighter;
+}
+
+.title-container{
+    
+    
+    @media(max-width:700px){
+        display: none;
+    }
+    #title{
+        font-family: 'Raleway';
+        font-weight: normal;
+        font-size: 15px;
+        text-align: center;
+        border-bottom: rgb(87, 87, 87) solid 1px;
+        margin: 100px 0px;
+        padding: 0px 30px;
+        // width: 1000px;
+        
+    }
+    
+}
+.we{
+    h5{
+        font-size: 40px;
+        margin: 40px 0px;
+    }
+}
+.init{
+    height: 130px;
+    @media(max-width: 550px){
+        height: 250px;
+    }
+}
+.baner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    text-align: center;
+    background: linear-gradient(210.18deg, #004EE9 -14.89%, rgba(255, 255, 255, 0) 92.34%), #6386F3;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    
+
+
+    img{
+        width: 400px;
+        border-radius: 20px;
+        margin: 20px;
+        @media(max-width: 550px){
+            width: 250px;
+        }
+    }
+    
+    @media (min-width: 1300px){
+      margin: 50px 13%;
+    }
+    @media (max-width: 600px){
+        margin: auto;
+        margin-top: 30px;
+        width: 80%;
+        flex-direction: column;
+
+    .description{
+        margin-top: 0px;
+    }
+    }
+
+    .slogan{
+      font-family: 'Raleway', sans-serif;
+      color: #FFBDBD;
+      margin:auto;
+    //   display: flex;
+      h3{
+        font-size: 26px;
+        text-align: center;
+      }
+      h5.description{
+          @media(max-width: 650px){
+              font-size: 20px;
+              margin: 0px 20px;
+          }
+    }
+      h5{
+        @media(max-width: 650px){
+            font-size: 20px;
+            margin: 0px 20px;
+        }
+        
+        font-size: 28px;
+        text-align: center;
+        font-weight: lighter;
+        // width: 300px;
+        padding-bottom: 20px;
+        a{
+            color: rgb(255, 128, 128);
+            &:hover{
+                background-color: transparent;
+            }
+        }
+      }
+      }
+    }
+
+
+.white{
+    background: white;
+    flex-direction: row-reverse;
+    .slogan{
+        h5{
+            @media(max-width: 650px){
+                font-size: 20px;
+                margin: 0px 20px;
+                width: auto;
+            }
+            color: black;
+            font-size: 30px;
+            
+            
+        }
+    }
+}
+
+.we{
+    font-size: 40px;
+    text-align: center;
+    font-family:'Raleway', sans-serif;
+
+}
+
+.cntr{
+    display: flex;
+    justify-content: center;
+    .btn-amazon{
+    margin-right: 0px;
+}   
+}

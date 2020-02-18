@@ -1,0 +1,17 @@
+.colorPanel{
+    display: flex;
+    width:145px;
+    background: rgba(255, 255, 255, 0.54);
+    // border-radius: 17px;
+    height: 60px;
+    justify-content: space-evenly;
+    border-radius: 17px;
+
+    .colorRadius{
+        width: 32px;
+        height: 32px;
+        border-radius: 20px;
+        border: 2px solid #FFFFFF;
+        margin-top: 1em;
+    }
+}

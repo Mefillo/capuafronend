@@ -1,0 +1,66 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 3000px;
+    background-color: #f0b090;
+}
+
+#nav {
+    background-color: #0b032d;
+    overflow: auto;
+    position: sticky;
+}
+#nav ul{
+    float: right;
+}
+#nav li{
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+}
+
+#nav li a{
+    display: block;
+    text-decoration: none;
+    padding:30px;
+    color: #ffb997;
+
+
+}
+#nav li a:hover {
+    background-color: #843b62;
+    color: #f0b090;
+
+}
+
+
+#logo {
+    display: block-inline;
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+#logo img{
+    width: 70px;
+
+}
+
+#company{
+    margin-top: 25px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    display: inline-block;
+    /* margin-bottom: 40px; */
+    color: #f67e7d;
+}
+
+.cart img{
+    width: 14px;
+    margin: 0;
+}
