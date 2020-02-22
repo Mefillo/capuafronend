@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/capuashop/static/css/main.094a8062.chunk.css",
+    "main.js": "/capuashop/static/js/main.37dbda59.chunk.js",
+    "main.js.map": "/capuashop/static/js/main.37dbda59.chunk.js.map",
+    "runtime-main.js": "/capuashop/static/js/runtime-main.dd56c402.js",
+    "runtime-main.js.map": "/capuashop/static/js/runtime-main.dd56c402.js.map",
+    "static/js/2.203f32e4.chunk.js": "/capuashop/static/js/2.203f32e4.chunk.js",
+    "static/js/2.203f32e4.chunk.js.map": "/capuashop/static/js/2.203f32e4.chunk.js.map",
+    "index.html": "/capuashop/index.html",
+    "precache-manifest.ecbff6e2675e1f8c6db50980653af0d3.js": "/capuashop/precache-manifest.ecbff6e2675e1f8c6db50980653af0d3.js",
+    "service-worker.js": "/capuashop/service-worker.js",
+    "static/css/main.094a8062.chunk.css.map": "/capuashop/static/css/main.094a8062.chunk.css.map",
+    "static/js/2.203f32e4.chunk.js.LICENSE": "/capuashop/static/js/2.203f32e4.chunk.js.LICENSE",
+    "static/media/banner3.jpg": "/capuashop/static/media/banner3.9b7988fe.jpg",
+    "static/media/choose.jpg": "/capuashop/static/media/choose.559930d4.jpg",
+    "static/media/favicon.png": "/capuashop/static/media/favicon.b44016df.png",
+    "static/media/follow.jpg": "/capuashop/static/media/follow.a8c948b7.jpg",
+    "static/media/make.jpg": "/capuashop/static/media/make.78bd3e5c.jpg",
+    "static/media/test.jpg": "/capuashop/static/media/test.9e0c8833.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd56c402.js",
+    "static/js/2.203f32e4.chunk.js",
+    "static/css/main.094a8062.chunk.css",
+    "static/js/main.37dbda59.chunk.js"
+  ]
+}
