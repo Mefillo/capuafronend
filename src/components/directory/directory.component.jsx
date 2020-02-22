@@ -8,7 +8,7 @@ import {InMemoryCache} from 'apollo-cache-inmemory';
 import {ApolloClient, gql} from 'apollo-boost';
 
 const httpLink = createHttpLink ({
-    uri: 'http://127.0.0.1:8000/graphql/'
+    uri: 'http://capua3-dev.us-west-2.elasticbeanstalk.com/graphql/'
 }
 )
 
@@ -57,7 +57,7 @@ class Directory extends React.Component {
             <div className="cards">
             {
                 this.state.products.map(({name, price, color, imgListing, order, id, width, link})=> (
-                    <Product name = {name} price = {'$' + price.toString()} color={color} img={'http://127.0.0.1:8000/media/'+imgListing} order={order} id = {id} width={width} link={link} />
+                    <Product name = {name} price = {'$' + price.toString()} color={color} img={'http://capua3-dev.us-west-2.elasticbeanstalk.com/media/'+imgListing} order={order} id = {id} width={width} link={link} />
                 )
                 )
             }

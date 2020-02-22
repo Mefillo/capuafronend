@@ -14,7 +14,7 @@ import Footer from '../footer/footer.component'
 import { Query } from 'react-apollo';
 
 const httpLink = createHttpLink ({
-    uri: 'http://127.0.0.1:8000/graphql/'
+    uri: 'http://capua3-dev.us-west-2.elasticbeanstalk.com/graphql/'
 }
 )
 
@@ -105,7 +105,7 @@ class WDetailedProduct extends React.Component {
                             <h4 id='tagline'>{this.state.product.tagline}</h4>
                         </div>
                         <div className='whole'>
-                            <div className='pic'><img src={ "http://127.0.0.1:8000/media/"+this.state.product.imgDetailed}></img></div>
+                            <div className='pic'><img src={ "http://capua3-dev.us-west-2.elasticbeanstalk.com/media/"+this.state.product.imgDetailed}></img></div>
                             <div className='details'>
                                 <div className='description'>
                                     <p>{this.state.product.description}</p>
