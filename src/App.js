@@ -14,7 +14,7 @@ import { css } from "@emotion/core";
 import ClipLoader from "react-spinners/ClipLoader";
 
 const httpLink = createHttpLink ({
-  uri: 'http://capua3-dev.us-west-2.elasticbeanstalk.com/graphql/'
+  uri: 'https://www.capua.rocks/graphql/'
 })
 const cache = new InMemoryCache ();
 const client = new ApolloClient({
