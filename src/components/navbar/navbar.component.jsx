@@ -17,7 +17,7 @@ class NavBar extends React.Component {
         return(
     <div className="navbar">
             <div className="up">
-        <a id = 'redirect' href='http://localhost:3000' style={{padding: '0px'}}>
+        <a id = 'redirect' href='https://www.capua.store/' style={{padding: '0px'}}>
                 <div className="logo">
                     <div id="logotype"><img src={logo} alt=""/></div><p>Capua</p>
                 </div>
@@ -28,14 +28,14 @@ class NavBar extends React.Component {
             </div>
             <div className="menu" style={{display: this.state.toggled ? "block" : "none"}} >
                 <ul>
-                <a href="http://localhost:3000/"><li>Shop</li></a>
+                <a href="https://www.capua.store/"><li>Shop</li></a>
                 <a href="/about/"><li>About</li></a>
                 <a href="contact/"><li>Contact us</li></a>
                 </ul>
             </div>
             <div className="menu-s"  >
                 <ul>
-                <a href="http://localhost:3000/"><li>Shop</li></a>
+                <a href="https://www.capua.store/"><li>Shop</li></a>
                 <a href="/about/"><li>About</li></a>
                 <a href="/contact/"><li>Contact us</li></a>
                 </ul>

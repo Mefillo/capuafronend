@@ -129,7 +129,7 @@ class WDetailedProduct extends React.Component {
                                 <form action={this.state.product.link} method="get" target="_blank">
                                     <button className='btn-amazon'>See on Amazon</button>
                                 </form>
-                                <form action="http://localhost:3000" method="get" target="_blank">
+                                <form action="https://www.capua.store" method="get" target="_blank">
                                     <button className="btn-amazon back">Back to Shop</button>
                                 </form>
                             </div>
