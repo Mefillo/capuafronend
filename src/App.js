@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Route} from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
 import HomePage from './pages/homepage.component'
 import DetailedProduct from './components/detailed-product/detailed-product.component'
 import About from './pages/about.page'
@@ -53,6 +53,7 @@ class App extends React.Component {
     if (!this.state.loading){
     return (
       <div>
+        <Switch>
         <Route exact path = '/' render={() => <HomePage names = {this.state.names} /> } />
 
         {this.state.names.map((name) =>
@@ -61,7 +62,7 @@ class App extends React.Component {
 
         <Route exact path = '/about/'  component = {About} />
         <Route exact path = '/contact/'  component = {Contact} />
-        
+        </Switch>
       </div>
     );
     }
