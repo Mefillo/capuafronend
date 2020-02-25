@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../img/favicon.png'
 
 
 import './footer.styles.scss'

@@ -4,23 +4,6 @@
     display: flex;
 
     flex-wrap: wrap;
-
-  
-      
-      .read{
-        text-align: center;
-        font-family: Raleway;
-        font-size: 12px;
-        position: relative;
-        margin-left: 120px;
-        margin-top: 20px;
-        width: 100px;
-        height: 30px;
-        background: rgba(255, 255, 255, 0.54);
-        border-radius: 10px;
-        padding-top: 5px;
-      
-    }
 }
 .card {
     @media only screen and (min-width: 1050px){

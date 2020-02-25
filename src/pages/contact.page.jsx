@@ -5,7 +5,6 @@ import React from 'react'
 import './about.style.scss'
 
 import NavBar from '../components/navbar/navbar.component'
-import Footer from '../components/footer/footer.component'
 const Contact = () => (
     <>
     <NavBar/>

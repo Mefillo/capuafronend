@@ -46,7 +46,7 @@
         }
 
         img.banner-img{
-          @media (max-width: 1000px){
+          @media (max-width: 1035px){
             display: none;
           }
           width: 610px;
@@ -92,38 +92,6 @@
   }
   
 }
-
-
-.price{
-  background: rgba(196, 196, 196, 0.432);
-  border-radius: 129px;
-  font-family: Raleway;
-  font-size: 18px;
-  color:  #FFBDBD;
-  height: 50px;
-  width: 100px;
-  margin-left: 20px;
-
-  h4{
-    padding-top:px;
-    text-align: center;
-  }
-}
-
- .photo{
-   margin-left: -120px;
-   img{
-    @media only screen and (max-width: 600px){
-      margin-top: 40px;
-      margin-left: 20px;
-      width: 400px;
-      padding-left: 50px;
-    }
-    @media only screen and (min-width: 601px){
-     width: 550px;
-    }
-   }
- }
 
 
 .footer{

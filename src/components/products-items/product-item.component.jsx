@@ -1,24 +1,28 @@
 import React from 'react';
 import './product-item.component.scss'
-
+import clickMe from '../img/arrow_click_me.png'
+import sparks from '../img/sparks.png'
 const Product = ({name,price,color,img,order,id,width, link}) => (
     <>  
         <div className="whole">
             <div className="card" style={{backgroungColor: `${color}`}}>
                 <a id = 'redirect'href={name} style={{padding: '0px'}}>
-                    <div className="read">
-                        <h3>Read more</h3>
+                    <div className="sparks">
+                        <img src={sparks} alt=""/>
                     </div>
-                    
                     <div className="product">
-                    </div>
-                    <div className="price">
-                        <h4 className="prod">{name.toUpperCase()}</h4>
-                        <h4 className="prod">{price}</h4>
-                        <div className="photo">
-                            <img src={img} alt="" />
+                        <div className="price">
+                            <h4 className="prod">{name.toUpperCase()}</h4>
+                            <h4 className="prod">{price}</h4>
+                        </div>
+                        <div className="read">
+                            {/* <h3>Click picture</h3> */}
+                            <img src={clickMe} alt=""/>
                         </div>
                     </div>
+                        <div className="photo">
+                            <img src={img} alt=""/>
+                        </div>
                 </a>
                 
             </div>
