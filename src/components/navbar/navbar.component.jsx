@@ -26,11 +26,11 @@ class NavBar extends React.Component {
                     <img src={box} alt=""/>
                 </div>
             </div>
-            <div className="menu" style={{display: this.state.toggled ? "block" : "none"}} >
-                <ul>
-                <a href="https://www.capua.store/"><li>Shop</li></a>
+            <div className={this.state.toggled ? "menu untoggled" : "menu toggled"} >
+                <ul className={this.state.toggled ? "untoggled" : "toggled"}>
+                <a href="https://www.capua.store/"><li>Shopik</li></a>
                 <a href="/about/"><li>About</li></a>
-                <a href="contact/"><li>Contact us</li></a>
+                <a href="/contact/"><li>Contact us</li></a>
                 </ul>
             </div>
             <div className="menu-s"  >
