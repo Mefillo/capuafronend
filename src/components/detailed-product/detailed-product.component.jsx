@@ -128,7 +128,7 @@ class WDetailedProduct extends React.Component {
                                 <form action={this.state.product.link} method="get" target="_blank">
                                     <button className='btn-amazon'>See on Amazon</button>
                                 </form>
-                                <form action="https://www.capua.store" method="get">
+                                <form action="../" method="get">
                                     <button className="btn-amazon back">Back to Shop</button>
                                 </form>
                             </div>

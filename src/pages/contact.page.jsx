@@ -2,7 +2,7 @@
 
 import React from 'react'
 
-import './about.style.scss'
+import './contact.style.scss'
 
 import NavBar from '../components/navbar/navbar.component'
 const Contact = () => (
@@ -10,9 +10,11 @@ const Contact = () => (
     <NavBar/>
     <div className="baner">
         <div className="slogan">
-        <h3>Do you have any suggestion, concerns or feedback?</h3>
-        <h5>Do not hasitate any second! We are thrilled to hear from you!</h5>
-        <h5><a href="mailto:a.abovin@gmail.com">Contact Us</a></h5>
+            <div className="contact">
+                <h3>Do you have any suggestion, concerns or feedback?</h3>
+                <h5>Do not hasitate any second! We are thrilled to hear from you!</h5>
+                <h5><a href="mailto:support@capua.store">Contact Us:</a> support@capua.store</h5>
+            </div>
         </div>
     </div>
    {/* <div className="App">

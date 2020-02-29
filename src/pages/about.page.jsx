@@ -52,7 +52,7 @@ const About = () => (
             </div>
         </div>
         <div className="cntr">
-        <a id = 'redirect' href='https://www.capua.store/' style={{padding: '0px'}}>
+        <a id = 'redirect' href='../' style={{padding: '0px'}}>
             <button className='btn-amazon'>Products</button>
         </a>
         </div>
