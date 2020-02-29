@@ -126,6 +126,7 @@
 }
 
 .toggled{
+  display: none;
   height: 0px;
   li{
     transition: height 1s ease;
